@@ -1,0 +1,1 @@
+{\n  "name": "konfigurator-kuhinja",\n  "version": "1.0.0",\n  "scripts": {\n    "start": "node backend/server.js",\n    "client": "npm run start --prefix frontend",\n    "dev": "concurrently \"npm run server\" \"npm run client\"",\n    "server": "nodemon backend/server.js"\n  },\n  "proxy": "http://localhost:5000"\n}
